@@ -2,6 +2,7 @@ package jdbc;
 
 import javax.swing.JOptionPane;
 
+
 public class TestaConexao {
     
     public static void main(String[] args){
