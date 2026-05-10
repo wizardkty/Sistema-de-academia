@@ -1,4 +1,5 @@
 import java.util.Date;
+package models;
 
 public abstract class Pagamento {
 	private float valor;
