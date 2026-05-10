@@ -1,59 +1,30 @@
-package models;
 
-public class Aluno {
-    
-    private int id;
-    private String nome;
-    private String rg;
-    private String cpf;
-    private String email;
-    private String celular;
-    
-    public int getId() {
-        return id;
-    }
+public class Aluno extends Pessoa {
+	private int matricula;
+	private Plano plano;
+	
+	public Aluno() {
+		super();
+		this.matricula = -1;
+		this.plano = new Plano();
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public int getMatricula() {
+		return matricula;
+	}
 
-    public String getNome() {
-        return nome;
-    }
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	public Plano getPlano() {
+		return plano;
+	}
 
-    public String getRg() {
-        return rg;
-    }
-
-    public void setRg(String rg) {
-        this.rg = rg;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getCelular() {
-        return celular;
-    }
-
-    public void setCelular(String celular) {
-        this.celular = celular;
-    }
+	public void setPlano(Plano plano) {
+		this.plano = plano;
+	}
+	public void realizarMatricula () {
+	 System.out.println("Matricula realizada");
+	}
 }
