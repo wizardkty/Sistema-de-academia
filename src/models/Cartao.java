@@ -5,6 +5,9 @@ public class Cartao extends Pagamento {
 	private String numeroCartao;
 	private String senha;
 	
+	public Cartao() {
+		super();
+	}
 	public String getBandeira() {
 		return bandeira;
 	}
@@ -22,5 +25,9 @@ public class Cartao extends Pagamento {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	public void processar() {
+		
 	}
 }

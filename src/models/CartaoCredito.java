@@ -3,6 +3,9 @@ package models;
 public class CartaoCredito extends Cartao {
 	private byte quantParcela;
 
+	public CartaoCredito() {
+		super();
+	}
 	public byte getQuantParcela() {
 		return quantParcela;
 	}
@@ -10,6 +13,4 @@ public class CartaoCredito extends Cartao {
 	public void setQuantParcela(byte quantParcela) {
 		this.quantParcela = quantParcela;
 	}
-	
-	
 }

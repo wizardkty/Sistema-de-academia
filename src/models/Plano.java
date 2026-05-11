@@ -1,13 +1,14 @@
 package models;
 
 public class Plano {
+
 	private int nomePlano;
 	private float valor;
 	private int duracao;
 	private String descricao;
 	
-	public void CalculaVencimento() {
-
+	public void CalculaVencimento(int tempoDecorrido) {
+		duracao -= tempoDecorrido;
 	}
 	
 	public int getNomePlano() {
