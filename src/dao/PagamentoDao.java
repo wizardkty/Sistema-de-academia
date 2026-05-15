@@ -1,5 +1,5 @@
 package dao;
 
-public class PagamentoDao {
+public interface PagamentoDao {
 
 }

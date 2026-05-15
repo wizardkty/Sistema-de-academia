@@ -1,5 +1,5 @@
 package dao;
 
-public class ProfessorDao {
+public interface ProfessorDao {
 
 }

@@ -1,5 +1,5 @@
 package dao;
 
-public class PlanoDao {
+public interface PlanoDao {
 
 }

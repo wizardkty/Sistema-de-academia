@@ -1,5 +1,5 @@
 package dao;
 
-public class AlunoDao {
+public interface AlunoDao {
 
 }
