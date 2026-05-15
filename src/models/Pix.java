@@ -2,7 +2,7 @@ package models;
 
 public class Pix extends Pagamento {
 	private String chave;
-	private tipo tipoChave;
+	private tipoChave tipo;
 	public Pix() {
 		super();
 	}
@@ -14,10 +14,10 @@ public class Pix extends Pagamento {
 		this.chave = chave;
 	}
 	public tipo getTipoChave() {
-		return tipoChave;
+		return tipo;
 	}
-	public void setTipoChave(tipo tipoChave) {
-		this.tipoChave = tipoChave;
+	public void setTipoChave(tipoChave tipo) {
+		this.tipo = tipo;
 	}
 	public void processar() {
 		
